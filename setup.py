@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name = "fst-mark-klik",
+    name = "fst-format",
     version = "0.0.1",
     author= "Mark AJ Klik",
     author_email = "markklik@gmail.com",
@@ -21,4 +21,6 @@ setup(
         "Operating System :: OS Independent",
         "Development Status :: 2 - Pre-Alpha"
     ],
+    test_suite='nose.collector',
+    tests_require=['nose']
 )
