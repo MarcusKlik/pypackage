@@ -1,3 +1,9 @@
+
+<img src="logo.png" align="right" />
+
+[![Linux/OSX Build
+Status](https://travis-ci.org/MarcusKlik/pypackage.svg?branch=master)](https://travis-ci.org/MarcusKlik/pypackage)
+
 # fst for Python
 
 ## Overview
