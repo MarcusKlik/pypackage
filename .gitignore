@@ -10,3 +10,4 @@
 # Project files
 /.spyproject/*
 __pycache__
+/build/*

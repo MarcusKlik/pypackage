@@ -1,9 +1,8 @@
 
-from unittest import TestCase
-
 import fst
 
-class TestFstVersion(TestCase):
-    def test_is_string(self):
+class Test_fst_version(object):
+
+    def test_returns_string(self):
         v = fst.fst_version()
-        self.assertTrue(isinstance(v, str))
+        assert isinstance(v, str)
