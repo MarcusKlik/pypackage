@@ -6,4 +6,4 @@ Created on Wed Apr 17 21:15:39 2019
 """
 
 def fst_version():
-    return ("1.9.0")
+    return ("0.0.1")
